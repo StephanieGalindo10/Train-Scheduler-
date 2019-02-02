@@ -1,79 +1,30 @@
-# Train-Scheduler-
-In this project I created the train scheduler with some bonuses:
-I used :
-jQuery
-Firebase
-Moment.js
-Bootstrap
-HTML
-CSS
+# Train-Scheduler
 
+## How it works
+Accepts user input to add new train name, start time and frequency to schedule. Displays schedule in repeating table with next arrival based on current time and frequency of train stops. Stores Train info in Firebase for data persistence and retreives information from database on load. Schedules refresh every minute to reflect updated arrival information. User can delete train information from schedule and database with click of button.
+
+## Live Link:
 https://stephaniegalindo10.github.io/Train-Scheduler-/
 
-Overview
-
-In this assignment, you'll create a train schedule application that incorporates Firebase to host arrival and departure data. Your app will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
-
-- - -
-
-### Setup
-
-* We'll leave that up to you -- however you like. Just make sure you're using Firebase to store data, GitHub to backup your project, and GitHub Pages to host your finished site.
-
-### Submission on BCS
-
-* Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
-
-### Instructions
-
-* Make sure that your app suits this basic spec:
-
-* When adding trains, administrators should be able to submit the following:
-
+## Requirements
+App must suit these basic specs:
+When adding trains, administrators should be able to submit the following:
 * Train Name
-
-* Destination 
-
+* Destination
 * First Train Time -- in military time
-
 * Frequency -- in minutes
 
-* Code this app to calculate when the next train will arrive; this should be relative to the current time.
+# Technology Used
+* jQuery
+* Firebase
+* Moment.js
+* Bootstrap
+* HTML
+* CSS
 
-* Users from many different machines must be able to view same train times.
+## Extra
+* Background image : Link : https://wall.alphacoders.com/
 
-* Styling and theme are completely up to you. Get Creative!
+# Author
+* Stephanie Galindo -U.C. Davis Bootcamp
 
-### Example Site
-
-![train homework](Train_Time_Image.png)
-
-### Bonus (Extra Challenges)
-
-* Consider updating your "minutes to arrival" and "next train time" text once every minute. This is significantly more challenging; only attempt this if you've completed the actual activity and committed it somewhere on GitHub for safekeeping (and maybe create a second GitHub repo).
-
-* Try adding `update` and `remove` buttons for each train. Let the user edit the row's elements-- allow them to change a train's Name, Destination and Arrival Time (and then, by relation, minutes to arrival).
-
-* As a final challenge, make it so that only users who log into the site with their Google or GitHub accounts can use your site. You'll need to read up on Firebase authentication for this bonus exercise.
-
-### Reminder: Submission on BCS
-
-* Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
-
-- - -
-
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-- - -
